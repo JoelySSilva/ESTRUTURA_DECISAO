@@ -1,0 +1,21 @@
+<meta charset="UTF-8" />
+<script>
+    /*
+    PROBLEMA: ANO BISSEXTO
+    Recebe um ano e informa se ele é bissexto ou não.
+    */
+
+    //ENTRADA
+   
+    let ano = parseInt(prompt("Digite um ano:"));
+
+    //PROCESSAMENTO
+    if ((ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0)) {
+    alert(ano + " é um ano bissexto.");
+    } else {
+    alert(ano + " não é um ano bissexto.");
+    }
+
+
+
+</script>
